@@ -1,0 +1,20 @@
+<PUBLIC:ATTACH EVENT=ondocumentready ONEVENT="elementLoad()" />
+<PUBLIC:PROPERTY NAME="scrollPos" />
+<PUBLIC:PROPERTY NAME="persistID" />
+
+// DHTML behavior for scrollable DIV
+// (or other scrollable element) 
+//
+// allows element to maintain scroll position within
+// the DIV across postbacks. 
+
+<script language="javascript">
+    function elementLoad() { 
+        element.scrollTop = scrollPos; 
+        element.attachEvent("onscroll", saveScroll); 
+    }
+    
+    function saveScroll() { 
+        element.document.all[persistID].value =  event.srcElement.scrollTop; 
+    } 
+</script>

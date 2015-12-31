@@ -1,0 +1,46 @@
+﻿.Money
+{
+	text-align:right;
+}
+
+.btnCalendar
+{
+    BACKGROUND-POSITION: center 50%;
+    BACKGROUND-IMAGE: url(Images/smallcalendar.gif);
+    WIDTH: 18px;
+    HEIGHT: 19px
+}
+
+.InactiveMenu
+{
+	background-color: #d5e6f5; 
+	border-top: #1a4e7b 5px solid; 
+	border-bottom: #1a4e7b 2px solid; 
+	color: #2c6ea9; 
+	Cursor: hand;
+	font-weight:bold;
+	font-family:Verdana;
+	font-size:12px;
+}
+
+.ActiveMenu
+{
+	border-top: #7c1308 5px solid; 
+	background-color: #2c6ea9; 
+	color:White;
+	font-weight:bold;
+	font-family:Verdana;
+	font-size:12px;
+}
+
+.Logoff
+{
+	background-color: #d5e6f5; 
+	border-top: #1a4e7b 5px solid; 
+	border-bottom: #1a4e7b 2px solid; 
+	color: #f78d00; 
+	Cursor: hand;
+	font-weight:bold;
+	font-family:Verdana;
+	font-size:10.5px;
+}

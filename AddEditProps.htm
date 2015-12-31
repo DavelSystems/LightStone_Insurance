@@ -1,0 +1,21 @@
+<html>
+<head>
+	<script language="javascript" >
+		var querystring=location.search.substring(1,location.search.length); //location.search gets everything from ? and on.
+		
+		var str = "<title>Add/Edit Properties</title><frameset rows=\"0,*\">";
+		str = str + "<frame name=\"Header\" src=\"\" scrolling=\"no\" noresize>";
+		str = str + "<frame id=frmMain name=\"main\" src=\"AddEditProps.aspx\">";
+		document.write(str);
+
+	</script>
+
+</head>
+
+<!--
+<frameset rows="0,*">
+<frame name="Header" src="" scrolling="no" noresize>
+<frame name="main" src="Location.aspx">
+</frameset>
+-->
+</html>

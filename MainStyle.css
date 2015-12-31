@@ -1,0 +1,745 @@
+BODY
+{
+    COLOR: black;
+    FONT-FAMILY: Arial, Verdana;
+    BACKGROUND-COLOR: #EFF3FB;
+    
+}
+
+.body1
+{
+    COLOR: black;
+    FONT-FAMILY: Arial, Verdana;
+    BACKGROUND-COLOR: #f4f4f4;
+    
+}
+
+ html, form, body {
+      height:89%;
+     
+   }
+   
+    .html1, .form1, .body1 {
+      height:98.5%;
+     
+   }
+   
+   #BigTable {
+     
+	BACKGROUND-COLOR: #cccccc;
+	BORDER-COLLAPSE: collapse;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 8px;
+	vertical-align: top;
+	height: 98%;
+   }
+
+
+.topBody
+{
+    COLOR: black;
+    FONT-FAMILY: Arial, Verdana;
+    BACKGROUND-COLOR: #3399ff
+
+}
+
+.innerTable
+{
+	BACKGROUND-COLOR: #cccccc;
+	BORDER-COLLAPSE: collapse;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+	
+	
+}
+
+.btnCalendar
+{
+    BACKGROUND-POSITION: center 50%;
+    BACKGROUND-IMAGE: url(Images/smallcalendar.gif);
+    WIDTH: 18px;
+    HEIGHT: 19px
+}
+
+.InactiveMenu
+{
+	background-color: #d5e6f5; 
+	border-top: #1a4e7b 5px solid; 
+	border-bottom: #1a4e7b 2px solid; 
+	color: #2c6ea9; 
+	Cursor: hand;
+	font-weight:bold;
+	font-family:Verdana;
+	font-size:12px;
+}
+
+.ActiveMenu
+{
+	border-top: #7c1308 5px solid; 
+	background-color: #2c6ea9; 
+	color:White;
+	font-weight:bold;
+	font-family:Verdana;
+	font-size:12px;
+}
+
+
+A 
+{ 
+	COLOR: black; 
+	TEXT-DECORATION: underline; 
+}
+
+
+h3 
+{
+	
+	text-align:center;
+}
+ 
+h4 
+{
+	
+	text-align:center;
+}
+
+select 
+{
+	font:8pt Verdana;
+}
+
+input 
+{
+	font:8pt Verdana;
+}
+
+
+
+.noshow {display:none}
+.novis {visibility:hidden}
+
+.tabletext 
+{
+	font: 8pt Verdana; 
+}
+
+.grid
+{
+	font:8pt Verdana; 
+	
+}
+
+
+/* mouse is over row */
+.overrow
+{
+	cursor:hand;
+	height:15;
+	background-color:#99ccff; 
+	color: black;
+}
+
+/* regular row */
+.regrow 
+{
+	FONT-SIZE: 9pt;
+    CURSOR: hand;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #e6effd ;
+    text-align:left;
+}
+
+/* alternate row */
+.altrow
+{
+	FONT-SIZE: 9pt;
+    CURSOR: hand;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #c6d8f3;	
+    text-align:left;
+}
+
+/* selected row */
+.selrow
+{
+	
+	cursor: hand;
+	height: 15px;
+	background-color: #84b1de; 
+	color: white;
+	font-weight: bold;
+}
+
+/* edit row */
+
+.editrow
+{
+	font-weight: bold;
+	cursor: default;
+	height: 15px;
+	background-color: #84b1de;
+}
+
+/* header row */
+.headrow
+{
+	color:black; 
+	background-color: #9cb5db; 
+	font-size: 10pt;
+	font-weight: bold;
+	text-align:left;
+	
+}
+
+.lockrow
+{ 
+	
+	font:10pt Verdana; 
+	font-weight: bold;
+	color:black;  
+	POSITION: relative; 
+	background-color:#9cb5db; 
+	BORDER-LEFT: 1px solid; 
+	BORDER-RIGHT: 0px solid; 
+	BORDER-BOTTOM: 0px solid;
+	BORDER-TOP: 0px solid;
+	TOP: expression(document.getElementById("divGrid").scrollTop-1);
+	text-align:center;
+} 
+ 
+
+.gridpager a, .gridpager a:link, .gridpager a:visited, .gridpager a:hover
+{ 
+	COLOR: blue; 
+	TEXT-DECORATION: none;
+}
+
+.maintable
+{
+	width:95%;
+	height:90%;
+	padding-left:10;
+	border-left:1 solid black;
+	padding-top:10;
+	border-top:1 solid black;
+}
+
+.forecolor 
+{
+	BACKGROUND-COLOR: #507CD1;
+	color:white;
+}
+
+
+.gridbtn
+{
+	POSITION:absolute;
+	LEFT:0px;
+	top:0px; 
+	FONT:bold 7pt Verdana; 
+	HEIGHT:16px
+}
+
+.readregrow 
+{
+	height:15;
+	background-color:#b0b0d5;
+	color:black;
+}
+
+.readaltrow
+{
+	height:15;
+	background-color:#d0d0f5;
+	color:black;	
+}
+
+.tab1
+{
+	BACKGROUND-IMAGE: url(images\greytab.gif);
+	color: white;
+	TEXT-ALIGN: center;
+	cursor:hand;
+	font: 10pt arial;
+	font-weight: bold;
+	width:91;
+	height: 20px;
+	vertical-align:  bottom;
+	padding-right: 7px;
+	padding-top: 2px;
+
+}
+.tabsel1
+{
+	BACKGROUND-IMAGE: url(images\orangetab.GIF);
+	color: Black ;
+	TEXT-ALIGN: center;
+	vertical-align: bottom;
+	font: 10pt arial;
+	font-weight: bold;
+	width:91;
+	height: 20px;
+	padding-right: 7px;
+	padding-top: 2px;
+}
+
+.tab
+{
+    BACKGROUND-COLOR: #5050a0; /* DarkGray; */
+    COLOR: #f0f0f0; 
+    TEXT-ALIGN: center;
+    cursor:hand;
+    font-family:System;
+    width:75;
+} 
+
+.tabsel
+{
+    BACKGROUND-COLOR: #cccccc; 
+    COLOR: #000080; 
+    TEXT-ALIGN: center;
+    font-family:System;
+    width:75;
+}
+
+.btnup
+{
+    BACKGROUND-COLOR: #5050a0;
+    BORDER-BOTTOM: thin outset;
+    BORDER-LEFT: thin outset;
+    BORDER-RIGHT: thin outset;
+    BORDER-TOP: thin outset;
+    COLOR: white;
+    CURSOR: default;
+    font:12pt System;
+    TEXT-ALIGN: center;
+    WIDTH:120;
+    HEIGHT:35
+}
+
+.fakebtnup
+{
+    BACKGROUND-COLOR: #5050a0;
+    BORDER-BOTTOM: thin outset;
+    BORDER-LEFT: thin outset;
+    BORDER-RIGHT: thin outset;
+    BORDER-TOP: thin outset;
+    COLOR: white;
+    CURSOR: default;
+    font:12pt System;
+    TEXT-ALIGN: center;
+    WIDTH:120;
+    HEIGHT:35
+}
+
+.btndown
+{
+    BACKGROUND-COLOR: #e0e0ff;
+    BORDER-BOTTOM: thin inset;
+    BORDER-LEFT: thin inset;
+    BORDER-RIGHT: thin inset;
+    BORDER-TOP: thin inset;
+    COLOR: black;
+    font:12pt System;
+    CURSOR: default;
+    TEXT-ALIGN: center;
+    WIDTH:120;
+    HEIGHT:35
+}
+.btnoff
+{
+    BACKGROUND-COLOR: #e0e0ff;
+    BORDER-BOTTOM: thin inset;
+    BORDER-LEFT: thin inset;
+    BORDER-RIGHT: thin inset;
+    BORDER-TOP: thin inset;
+    COLOR: #c0c0c0;
+    font:12pt System;
+    CURSOR: default;
+    TEXT-ALIGN: center;
+    WIDTH:120;
+    HEIGHT:35
+}
+
+.MainBtnOff
+{
+    BACKGROUND-COLOR: #e0e0ff;
+    COLOR:#c0c0c0;
+    TEXT-ALIGN: center;
+    cursor:default;
+    font-family:System;
+    width:75;
+} 
+
+
+.Button 
+{
+	 HEIGHT: 23px;
+	 background-color: #eea865;
+	 border: 1px outset;
+	
+}
+
+.readonly
+{
+    FONT-SIZE: 8pt;
+    WIDTH: 40px;
+    CURSOR: text;
+    COLOR: darkblue;
+    FONT-FAMILY: Arial;
+    HEIGHT: 20px
+}
+.readonlyQty
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    WIDTH: 20px;
+    CURSOR: text;
+    COLOR: darkblue;
+    FONT-FAMILY: System;
+    HEIGHT: 20px;
+    BACKGROUND-COLOR: #d0d0d0;
+    TEXT-ALIGN: right
+}
+.currency
+{
+    FONT-SIZE: 8pt;
+    WIDTH: 40px;
+    CURSOR: text;
+    COLOR: darkblue;
+    FONT-FAMILY: "Franklin Gothic Heavy",Impact;
+    HEIGHT: 20px;
+    TEXT-ALIGN: right
+}
+
+.SectionHead
+{
+    BACKGROUND-POSITION: center center;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 8pt;
+    BACKGROUND-IMAGE: url(images\customermainbox.gif);
+    COLOR: black;
+    BACKGROUND-REPEAT: repeat-x;
+    FONT-FAMILY: Arial;
+    HEIGHT: 15px;
+    TEXT-ALIGN: left
+}
+
+.InnerSectionHead
+{
+	
+    BACKGROUND-POSITION: center center;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 8pt;
+   
+    COLOR: #3d66b5;
+   
+    FONT-FAMILY: Arial;
+    HEIGHT: 10px;
+    TEXT-ALIGN: left
+}
+
+.labelText
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    TEXT-ALIGN: right;
+    vertical-align:top;
+    
+}
+
+.headText
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 9pt;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    TEXT-ALIGN: center
+}
+.headButton
+{
+    BORDER-RIGHT: white 1pt ridge;
+    BORDER-TOP: white 1pt ridge;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: white 1pt ridge;
+    WIDTH: 60px;
+    COLOR: navy;
+    BORDER-BOTTOM: white 1pt ridge;
+    FONT-FAMILY: Arial;
+    HEIGHT: 17px;
+    BACKGROUND-COLOR: #bed9f0;
+    TEXT-ALIGN: center
+}
+.headOver
+{
+    BORDER-RIGHT: lightsteelblue thin outset;
+    BORDER-TOP: lightsteelblue thin outset;
+    BORDER-LEFT: lightsteelblue thin outset;
+    cursor: hand;
+    BORDER-BOTTOM: lightsteelblue thin outset;
+    BACKGROUND-COLOR: transparent
+    
+}
+.headSelect
+{
+    BORDER-RIGHT: lightsteelblue thin;
+    BACKGROUND-POSITION: center center;
+    BORDER-TOP: lightsteelblue thin;
+    BACKGROUND-IMAGE: url(images\menuSelect.gif);
+    BORDER-LEFT: lightsteelblue thin;
+    CURSOR: default;
+    BORDER-BOTTOM: lightsteelblue thin;
+    BACKGROUND-REPEAT: no-repeat;
+    TEXT-ALIGN: center
+}
+
+.btnSelect
+{
+    BORDER-RIGHT: lightsteelblue thin;
+    BACKGROUND-POSITION: center center;
+    BORDER-TOP: lightsteelblue thin;
+   
+    BORDER-LEFT: lightsteelblue thin;
+    CURSOR: default;
+    BORDER-BOTTOM: lightsteelblue thin;
+    BACKGROUND-REPEAT: no-repeat;
+    TEXT-ALIGN: center
+}
+
+CAPTION
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-VARIANT: normal
+}
+
+.rowalt
+{
+    FONT-SIZE: 9pt;
+    CURSOR: hand;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #d8e8ff
+}
+.rowdef
+{
+    FONT-SIZE: 9pt;
+    CURSOR: hand;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #e3f0fe
+}
+
+.textbox
+{
+	
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+   
+    
+    COLOR: black;
+  
+    FONT-FAMILY: Arial
+}
+
+.TextBoxHeader
+{
+	background-color: #dcdee0;
+}
+
+.Button5
+{
+	display: none;
+}
+
+
+
+
+.Button1 
+{
+	 /*HEIGHT: 23px;
+font-family:Verdana;
+*/
+	 background-color: #d5e6f5;
+	 border: 1px outset;
+	 color: red; 
+	 font-weight: bold;
+	 
+
+}
+
+
+.Button2
+{
+	 /*HEIGHT: 23px;
+font-family:Verdana;
+*/
+	 background-color: #d5e6f5;
+	 border: 1px outset;
+	 color: #2c6ea9;
+	 font-weight: bold;
+	 
+
+}
+/* regular row */
+.regrowNotes 
+{	
+	FONT-SIZE: 9pt;
+    CURSOR: hand;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #e6effd ;
+    text-align:left;
+    
+    
+}
+
+/* alternate row */
+.altrowNotes
+{
+	FONT-SIZE: 9pt;
+    CURSOR: hand;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #c6d8f3;	
+    text-align:left;
+}
+
+/* selected row */
+.selrowNotes
+{
+	
+	cursor: hand;
+	height: 15px;
+	background-color: #84b1de; 
+	color: white;
+	font-weight: bold;
+}
+
+/* edit row */
+
+.editrowNotes
+{
+	font-weight: bold;
+	cursor: default;
+	height: 15px;
+	background-color: #84b1de;
+}
+
+/* header row */
+.headrowNotes
+{
+	color:black; 
+	background-color: #9cb5db; 
+	font-size: 10pt;
+	font-weight: bold;
+	text-align:center;
+	
+}
+
+.labelcell
+{
+	font-weight: bolder;
+	font-size: 9pt;
+	color: black;
+	font-family: Arial;
+	text-align: left;
+	border: 1px silver solid;
+	border-top: none;
+	border-left: none;
+	background-color: gainsboro;
+	width: 95px;
+	vertical-align: bottom;
+	height: 20px;
+}	
+
+.labelcellhead
+{
+	font-weight: bolder;
+	font-size: 9pt;
+	color: black;
+	font-family: Arial;
+	text-align: center;
+	vertical-align: top;
+	border: 1px silver solid;
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+	background-color: gainsboro;
+	width: 95px;
+	vertical-align: bottom;
+	height: 20px;
+}
+
+
+	
+	
+	.txtboxCell
+{
+    
+    FONT-SIZE: 9pt;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    TEXT-ALIGN: center;
+    vertical-align:top;
+    width: 95px;
+    vertical-align: bottom;
+    background-color: #ddeeff;
+    height: 20px;
+}
+
+.noShow
+{
+    DISPLAY: none
+}
+
+
+.inputTab
+{
+    
+    FONT-WEIGHT: bolder; 
+    FONT-SIZE: 8pt; 
+    
+    border-bottom: none; 
+    BORDER-RIGHT: black 1px solid; 
+    BACKGROUND-POSITION: center center;
+    BORDER-TOP: #ff9933 3px solid; 
+    BACKGROUND-Color: #EFF3FB; 
+    BORDER-LEFT: black 1px solid; 
+    CURSOR: default; 
+    FONT-FAMILY: Arial; 
+    HEIGHT: 28px; 
+    TEXT-ALIGN: center; 
+    PADDING-RIGHT: 5px; 
+    PADDING-LEFT: 5px;
+}
+.inputTabOff
+{   
+    Border: 1px solid black;
+    
+    BACKGROUND-POSITION: center center; 
+    FONT-WEIGHT: bolder; 
+    FONT-SIZE: 8pt; 
+    BACKGROUND-Color: #dcdee0; 
+    FONT-FAMILY: Arial; 
+    HEIGHT: 28px; 
+    TEXT-ALIGN: Center; 
+    PADDING-RIGHT: 5px; 
+    PADDING-LEFT: 5px;
+    
+}
+.inputTabSpace
+{
+    BORDER-BOTTOM: solid 2px silver;
+    BACKGROUND-COLOR: #e6e7e9
+}
